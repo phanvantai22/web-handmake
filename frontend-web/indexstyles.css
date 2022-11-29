@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: urw-din, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: gray;
+  height: 3000px;
+  z-index: 10;
+}
+
+.container-desktop, .header-page, .top-header .top-header-content {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.top-header {
+  background: #fff;
+}
+.top-header .top-header-content {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+.top-header .top-header-content .top-header-list {
+  display: flex;
+  list-style: none;
+  background: red;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 25px;
+}
+.top-header .top-header-content .top-header-list .top-header-item {
+  width: 74px;
+  margin-left: 5px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #00305b;
+  transition: 0.2s;
+}
+.top-header .top-header-content .top-header-list .top-header-item:hover {
+  font-weight: 700;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.header, .sticky {
+  border-bottom: 1px solid black;
+  background: #fff;
+  z-index: 999999;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-page {
+  display: flex;
+  align-items: center;
+}
+.header-page .logo-page {
+  width: auto;
+  height: 84px;
+}
+.header-page .logo-page img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.nav {
+  width: 100%;
+}
+.nav .nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav .nav-list .nav-list-item {
+  max-width: 100%;
+  height: auto;
+}
+.nav .nav-list .nav-list-item_dropdown {
+  width: 190px;
+  text-align: center;
+  padding: 7px 17px 7px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.2s;
+}
+.nav .nav-list .nav-list-item_dropdown:hover {
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.nav .nav-list .nav-list-item_icon {
+  width: auto;
+  height: 84px;
+}
+.nav .nav-list .nav-list-item_icon img {
+  max-width: 100%;
+  max-height: 54%;
+  object-fit: cover;
+  margin: 17px;
+}
+
+.list-drop-down {
+  background: red;
+  z-index: -10;
+}
+.list-drop-down .list-view {
+  max-width: 1140px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=indexstyles.css.map */
